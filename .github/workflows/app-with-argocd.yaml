@@ -93,6 +93,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
+        cd app-with-argocd-manifest
         git config --local user.email "gjwnsgud4016@gmail.com"
         git config --local user.name "HeoJunHyoung"
         git add .
