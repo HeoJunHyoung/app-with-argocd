@@ -69,7 +69,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: HeoJunHyoung/app-with-argocd-img-manifest
+        repository: HeoJunHyoung/app-with-argocd-integrated
         ref: main
         token: ${{ secrets.GH_TOKEN }}
         
