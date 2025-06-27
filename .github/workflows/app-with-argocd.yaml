@@ -73,6 +73,7 @@ jobs:
         repository: HeoJunHyoung/app-with-argocd-manifest
         ref: main
         token: ${{ secrets.GH_TOKEN }}
+        path: app-with-argocd-manifest
 
     - name: Set SHORT_SHA env
       run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
